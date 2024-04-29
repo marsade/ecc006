@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    margin: 20px 30px;
+}
 .container {
+    margin-top: 20px;
     display: flex;
     gap: 50px;
 }
