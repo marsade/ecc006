@@ -4,12 +4,35 @@
     box-sizing: border-box;
 }
 body {
-    margin: 20px 30px;
+    font-family: "Gentium Plus", serif;
+    margin: 50px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info {
+    display: flex;
+    gap: 15px;
+}
+header img {
+    width: 100px;
+    border-radius: 5px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hobbies p{
+    text-align: center;
 }
 .container {
     margin-top: 20px;
     display: flex;
-    gap: 50px;
+    gap: 5px;
+    align-items: flex-start;
 }
 .hw {
     display: flex;
@@ -21,4 +44,8 @@ img {
 }
 span {
     display: block;
+}
+footer {
+    position: static;
+    bottom: 0;
 }
